@@ -75,4 +75,5 @@ avrdude $UPLOAD_FLAGS -U lfuse:w:0xef:m -U hfuse:w:0xd9:m -U efuse:w:0xfd:m -U f
 ```
 
 ## flash program 에러 발생시
-
+zadig 실행하여 32bit 드라이버로 downgrade  
+<img src="[/path/to/img.jpg](https://github.com/copaland/atmel/blob/main/image/zadig.png?raw=true)" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="zadig"></img><br/>
