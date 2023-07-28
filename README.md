@@ -1,4 +1,4 @@
-# atmel 유용한 정보
+# atmel Platformio 유용한 정보
 AVR CPU 관련
 
 ## USB driver installation made easy
@@ -73,3 +73,6 @@ avrdude $UPLOAD_FLAGS -U lfuse:w:0xe2:m -U hfuse:w:0xd9:m -U efuse:w:0xfd:m -U f
 ```
 avrdude $UPLOAD_FLAGS -U lfuse:w:0xef:m -U hfuse:w:0xd9:m -U efuse:w:0xfd:m -U flash:w:$SOURCE:i  
 ```
+
+## flash program 에러 발생시
+
